@@ -1,0 +1,58 @@
+.ministerio{
+    min-height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.bg-mens{
+
+    background-image: url('http://www.jesuseslaroca.org/wp-content/uploads/2014/10/mensbg.jpg');
+    background-size: cover;
+}
+
+.bg-womens{
+
+    background-image: url('../assets/images/ministerio-mujer.jpg');
+    background-size: cover;
+}
+
+.btn-array{
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+}
+
+.bg-jovenes{
+    color:white;
+    background-image: url('../assets/images/ministerio-jovenes.jpg');
+    background-size: cover;
+}
+
+.bg-ninos{
+    color:white;
+    background-image: url('../assets/images/ministerio-ninos.jpg');
+    background-size: cover;
+}
+
+.long-text{
+    width:100%;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2E2E2E;
+    padding: 20px;
+    
+}
+.pad{
+    width: 80%;
+}
+
+.ministerio > h3{
+    color: white;
+    padding: 0px 20px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.534), rgba(3, 0, 44, 0.623));
+}

@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center;
+  align-items: center; */
 }
 
 .App-logo {
@@ -30,4 +34,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar{
+  background-image: linear-gradient(to right, rgb(21, 0, 99),rgb(163, 0, 141), rgb(30, 0, 99))
+}
+
+.nav-link{
+  color: white;
+}
+
+.address{
+  display: flex;
+  width: 300px;
 }
