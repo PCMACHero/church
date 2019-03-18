@@ -50,25 +50,25 @@ export default class Ministerios extends React.Component{
     ministerioToShow=(counter)=>{
         let div = (
         <React.Fragment>
-            <div key={this.counter} className={`ministerio animated slow fadeInDown ${this.ministerioArr[counter].imgClass}`}>
+            <div key={this.counter} className={`ministerio animated slow fadeInLeft ${this.ministerioArr[counter].imgClass}`}>
         <h2>{this.ministerioArr[counter].title}</h2>
         <h3>{this.ministerioArr[counter].subtitle}</h3>
         
         <p>{this.ministerioArr[counter].text}</p>
         <div className="btn-array">
-            <button className="btn unique-color" onClick={()=>{
+            <button className="btn" onClick={()=>{
                 clearInterval(this.intervalId)
                 this.ministerioToShow(0)
             }}>VARONES</button>
-            <button className="btn unique-color" onClick={()=>{
+            <button className="btn" onClick={()=>{
                 clearInterval(this.intervalId)
                 this.ministerioToShow(1)
             }}>MUJERES</button>
-            <button className="btn unique-color" onClick={()=>{
+            <button className="btn" onClick={()=>{
                 clearInterval(this.intervalId)
                 this.ministerioToShow(2)
             }}>JOVENES</button>
-            <button className="btn unique-color" onClick={()=>{
+            <button className="btn" onClick={()=>{
                 clearInterval(this.intervalId)
                 this.ministerioToShow(3)
             }}>NIÑOS</button>

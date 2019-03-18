@@ -4,13 +4,14 @@ export default class Footer extends React.Component{
     render(){
         return (
        
-<footer className="page-footer font-small cyan darken-3">
+<footer className="page-footer font-small indigo darken-3"  >
 
     <div className="container">
 
       <div className="row">
-            <div className="address">216 S. Reservoir St. Pomona, CA 91766<br/>(909) 623-5515 <br/>info@jesuseslaroca.org</div>
+            
         <div className="col-md-12 py-5">
+        <div className="address">216 S. Reservoir St. Pomona, CA 91766<br/>(909) 623-5515 <br/>info@jesuseslaroca.org</div>
           <div className="mb-5 flex-center">
 
             <a className="fb-ic">

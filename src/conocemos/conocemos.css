@@ -1,0 +1,23 @@
+.conocemos{
+    min-height: 700px;
+    background-image: linear-gradient(rgb(0, 67, 53),rgb(177, 221, 255));
+}
+
+.con-title{
+    color:white;
+}
+
+.con-p{
+    color:white;
+}
+
+.historia-pic{
+    box-shadow: 5px 5px 5px black;
+}
+
+@media only screen and (max-width:600px){
+    .historia-pic{
+        box-shadow: 5px 5px 5px black;
+        width: 100vw;
+    }
+}

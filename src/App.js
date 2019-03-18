@@ -7,6 +7,7 @@ import Homepage from './homepage/homepage';
 import Footer from './footer/footer';
 import Ministerios from './ministerios/ministerios';
 import ScrollToTop from './scrollToTop/scrolltotop';
+import Conocemos from './conocemos/conocemos';
 
 class App extends Component {
   render() {
@@ -26,6 +27,7 @@ class App extends Component {
           <div style={{height:"64px", width:"100%"}}></div>
           <Route path="/" exact component={Homepage}/>
           <Route path="/ministerios" exact component={Ministerios}/>
+          <Route path="/conocemos" exact component={Conocemos}/>
         </div>
         <Footer/>
       </React.Fragment>

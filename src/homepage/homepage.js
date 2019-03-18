@@ -72,7 +72,7 @@ export default class Homepage extends React.Component{
             <div style={{ height: '600px' }} />
         </Parallax>
                 <div className="section1">
-                    {/* <h1 className="z2">Bienvenidos</h1> */}
+                    <h1 className="z2">Bienvenidos</h1> 
                     
 
                 </div>
