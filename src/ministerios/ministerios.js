@@ -50,12 +50,15 @@ export default class Ministerios extends React.Component{
     ministerioToShow=(counter)=>{
         let div = (
         <React.Fragment>
-            <div key={this.counter} className={`ministerio animated slow fadeInLeft ${this.ministerioArr[counter].imgClass}`}>
+            <div key={this.counter} className={`ministerio animated slow fadeIn ${this.ministerioArr[counter].imgClass}`}>
         <h2>{this.ministerioArr[counter].title}</h2>
         <h3>{this.ministerioArr[counter].subtitle}</h3>
         
         <p>{this.ministerioArr[counter].text}</p>
-        <div className="btn-array">
+        <div style={{display:'flex', flexDirection:"column"}}></div>
+         </div>
+         <div className="long-text ">
+         <div className="btn-array">
             <button className="btn" onClick={()=>{
                 clearInterval(this.intervalId)
                 this.ministerioToShow(0)
@@ -73,8 +76,6 @@ export default class Ministerios extends React.Component{
                 this.ministerioToShow(3)
             }}>NIÑOS</button>
             </div>
-         </div>
-         <div className="long-text ">
             <p className="pad">{this.ministerioArr[counter].longText}</p>
          </div>
 
