@@ -60,7 +60,7 @@ p, .nav-link{
 }
 
 .navbar{
-  background-image: linear-gradient(to right, rgb(21, 0, 99),rgb(163, 0, 141), rgb(30, 0, 99))
+  background-image: linear-gradient(to right, #7986cb,#64b5f6 , #7986cb)
 }
 
 .nav-link{

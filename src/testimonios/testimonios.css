@@ -17,7 +17,7 @@
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(red,rgb(0, 0, 43));
-    border-bottom: 400px solid rgb(130, 205, 255);
+    border-bottom: 400px solid rgb(255, 255, 255);
     border-left: 200px solid transparent;
     border-right: 50px solid transparent;
 }
@@ -34,7 +34,7 @@
     border-radius: 50%;
     width: 150px;
     height: 150px;
-    border: 5px solid rgb(0, 82, 25);
+    border: 5px solid rgb(0, 0, 0);
 }
 
 
