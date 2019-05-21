@@ -11,6 +11,7 @@
 
     background-image: url('http://www.jesuseslaroca.org/wp-content/uploads/2014/10/mensbg.jpg');
     background-size: cover;
+    background-position: center;
 }
 
 .bg-womens{
