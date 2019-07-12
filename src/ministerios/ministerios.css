@@ -1,51 +1,81 @@
+.ministerios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-image: linear-gradient(to right, rgb(41, 41, 41), rgb(35, 35, 165));
+
+}
+
 .ministerio{
-    min-height: 400px;
+    width: 900px;
+    height: 700px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
 .bg-mens{
 
-    background-image: url('http://www.jesuseslaroca.org/wp-content/uploads/2014/10/mensbg.jpg');
-    background-size: cover;
-    background-position: center;
+    background-image: url('../assets/images/ministerio-hombres.png');
+    
 }
 
 .bg-womens{
 
-    background-image: url('../assets/images/ministerio-mujer.jpg');
-    background-size: cover;
+    background-image: url('../assets/images/ministerio-mujeres.png');
+    
 }
 
 .btn-array{
     width: 100%;
     /* position: absolute; */
-    bottom: 50px;
+    /* bottom: 50px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+
 }
 
-.bg-jovenes{
+.bg-english{
     color:white;
-    background-image: url('../assets/images/ministerio-jovenes.jpg');
-    background-size: cover;
+    background-image: url('../assets/images/english.jpg');
+    
 }
 
 .bg-ninos{
     color:white;
     background-image: url('../assets/images/ministerio-ninos.jpg');
-    background-size: cover;
+    
+}
+
+.bg-obs{
+    color:white;
+    background-image: url('../assets/images/obs.jpg');
+    
+}
+
+.bg-oracion{
+    color:white;
+    background-image: url('../assets/images/oracion.jpg');
+    
 }
 
 .long-text{
-    width:100%;
+    width:800px;
     color:white;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    background-color: #673ab7  ;
+    /* background-color: #673ab7  ; */
     padding: 20px;
     min-height: 350px;
     
@@ -62,23 +92,71 @@
 
 .btn{
     border: 1px solid white;
-    background-color: rgba(46, 46, 46, 0.522);
+    background-color: rgba(46, 46, 46, 0.351);
+    width: 300px;;
 }
 
 .btn:hover{
-    border: 1px solid rgb(0, 195, 255);
-    background-color: rgba(46, 46, 46, 0.522);
-    color: rgb(184, 215, 255);
+    border: 1px solid rgb(219, 161, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 52, 120);
 }
 
 @media only screen and (max-width:600px){
-    .long-text{
-        height: 800px;
-    }
+  
     .btn-array{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+    }
+    .ministerios{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        flex-direction: column;
+    
+    }
+    .ministerio{
+        height: 60vh;
+        width: 90%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* box-shadow: black 2px 2px 2px 2px; */
+    }
+    .btn-array{
+        width: 100%;
+        /* position: absolute; */
+        /* bottom: 50px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        max-width: 400px;
+    
+    }
+    .btn{
+        border: 1px solid white;
+        background-color: rgba(46, 46, 46, 0.522);
+        max-width: 45%;
+        padding: 10px 0;
+    }
+    .long-text{
+        width: 100vw;
+        color:white;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        /* background-color: #673ab7  ; */
+        padding: 20px;
+        min-height: initial;
+        
     }
 }

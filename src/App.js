@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import {BrowserRouter, Route, Link} from 'react-router-dom'
+import {HashRouter, Route, Link} from 'react-router-dom'
 import logo from './assets/images/church-logo.jpg'
+import 'animate.css'
 
 import './App.css';
 import Homepage from './homepage/homepage';
@@ -12,7 +13,7 @@ import Conocemos from './conocemos/conocemos';
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter basename="/">
       <ScrollToTop>
 
       
@@ -34,7 +35,7 @@ class App extends Component {
       </ScrollToTop>
       
       
-      </BrowserRouter>
+      </HashRouter>
       
     );
   }
