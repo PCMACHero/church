@@ -32,6 +32,11 @@ h1.z2{
     
 }
 
+.pastor-title{
+    font-size: 1.5em;
+    color: yellow;
+}
+
 #hpsection1{
     /* position: absolute; */
     width: 100vw;
@@ -88,7 +93,7 @@ h1.z2{
 
 .pastor-content{
     /* border: 1px solid rgb(255, 255, 255); */
-    color: rgb(187, 255, 249);
+    color: rgb(255, 255, 255);
     padding: 15px;
     width: 400px;
     border-left: solid 1px white;
@@ -142,4 +147,12 @@ h1.z2{
         border-left: initial;
         border-top: solid 1px white;
     }
+    .pastor-text{
+        font-size: 1.5em;
+    }
+    .pastor-name{
+        padding: 20px 0;
+        font-size: 1.5em;
+    }
+    
 }

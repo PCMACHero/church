@@ -129,9 +129,12 @@ export default class Ministerios extends React.Component{
         this.ministerioToShow(0)
         
         this.intervalId = setInterval(e=>{
-            if(this.state.counter===this.ministerioArr.length){
-                this.ministerioToShow(1)
-                this.state.counter=1
+            if(this.state.counter===this.ministerioArr.length - 1){
+                console.log("this ran yay")
+                this.ministerioToShow(0)
+                this.setState({
+                    counter: 1
+                })
                 
             }else{
                 this.ministerioToShow(this.state.counter)
@@ -140,7 +143,7 @@ export default class Ministerios extends React.Component{
                 })
             }
             
-        }, 5000)
+        }, 6000)
     }
     componentWillUnmount(){
         console.log("unmounted")

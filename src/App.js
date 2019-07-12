@@ -22,7 +22,7 @@ class App extends Component {
           <Link to="/" className="navbar-brand" style={{padding: "0"}}><img src={logo} alt="church logo" width="64px" height="64px"/>  </Link>
           <Link to="/"> <div className="nav-item"><div className="nav-link">HOME</div></div> </Link>
           <Link to="/ministerios"><div className="nav-link">MINISTERIOS</div></Link>
-          <Link to="/conocemos"><div className="nav-link">CONOCEMOS</div></Link>
+          <Link to="/conocemos"><div className="nav-link">CONOCENOS</div></Link>
         </nav>
         <div className="App">
           <div style={{height:"64px", width:"100%"}}></div>
