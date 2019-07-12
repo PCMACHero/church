@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "a0221a6195daa246de21",
-    "url": "/church/static/css/main.8fba01d3.chunk.css"
+    "revision": "fc0d42870b853eebcb40",
+    "url": "/church/static/css/main.05ddc12f.chunk.css"
   },
   {
-    "revision": "a0221a6195daa246de21",
-    "url": "/church/static/js/main.6bfbc68a.chunk.js"
+    "revision": "fc0d42870b853eebcb40",
+    "url": "/church/static/js/main.65186d31.chunk.js"
   },
   {
     "revision": "3a3cacbd0a367dc33da0",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/church/static/media/ministerio-hombres.b289c7f4.png"
   },
   {
-    "revision": "f2a05a3fa49155586b1818ad05c402d4",
+    "revision": "dcdb7be67ba80ff64fa8c848c8af9d5a",
     "url": "/church/index.html"
   }
 ];
