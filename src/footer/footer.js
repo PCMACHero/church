@@ -12,12 +12,13 @@ export default class Footer extends React.Component{
             
         <div className="col-md-12 py-5">
         <div className="">216 S. Reservoir St. Pomona, CA 91766<br/>(909) 623-5515 <br/>info@jesuseslaroca.org</div>
+        
           <div className="mb-5 flex-center">
 
-            <a className="fb-ic">
+            {/* <a className="fb-ic" href="https://www.facebook.com/ministerio.jesuseslaroca/">
               <i className="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-            </a>
-            <a className="tw-ic">
+            </a> */}
+            {/* <a className="tw-ic">
               <i className="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
             </a>
             <a className="gplus-ic">
@@ -31,7 +32,7 @@ export default class Footer extends React.Component{
             </a>
             <a className="pin-ic">
               <i className="fab fa-pinterest fa-lg white-text fa-2x"> </i>
-            </a>
+            </a> */}
           </div>
         </div>
 
